@@ -3,7 +3,7 @@ module github.com/zhouyu-sunny/sonic-gnmi
 go 1.15
 
 require (
-	github.com/Azure/sonic-mgmt-common v0.0.0-00010101000000-000000000000
+	github.com/Azure/sonic-mgmt-common 341fd734b1ff8486e6c7ceecdc9a50cd5500bb92
 	github.com/Workiva/go-datastructures v1.0.50
 	github.com/agiledragon/gomonkey/v2 v2.8.0
 	github.com/c9s/goprocinfo v0.0.0-20191125144613-4acdd056c72d
