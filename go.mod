@@ -1,4 +1,4 @@
-module github.com/sonic-net/sonic-gnmi
+module github.com/zhouyu-sunny/sonic-gnmi
 
 go 1.15
 
