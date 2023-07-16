@@ -31,6 +31,6 @@ require (
 	gopkg.in/yaml.v2 v2.2.8
 )
 
-replace github.com/Azure/sonic-mgmt-common => ../sonic-mgmt-common
+replace github.com/Azure/sonic-mgmt-common => github.com/sonic-net/sonic-mgmt-common
 
 replace github.com/openconfig/gnoi => github.com/openconfig/gnoi v0.0.0-20201210212451-209899112bb7
