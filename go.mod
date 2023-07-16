@@ -3,7 +3,7 @@ module github.com/zhouyu-sunny/sonic-gnmi
 go 1.15
 
 require (
-	github.com/Azure/sonic-mgmt-common 341fd734b1ff8486e6c7ceecdc9a50cd5500bb92
+	github.com/Azure/sonic-mgmt-common v0.0.0-20230705144631-341fd734b1ff
 	github.com/Workiva/go-datastructures v1.0.50
 	github.com/agiledragon/gomonkey/v2 v2.8.0
 	github.com/c9s/goprocinfo v0.0.0-20191125144613-4acdd056c72d
@@ -31,6 +31,6 @@ require (
 	gopkg.in/yaml.v2 v2.2.8
 )
 
-replace github.com/Azure/sonic-mgmt-common => github.com/sonic-net/sonic-mgmt-common
+replace github.com/Azure/sonic-mgmt-common => github.com/sonic-net/sonic-mgmt-common v0.0.0-20230705144631-341fd734b1ff
 
 replace github.com/openconfig/gnoi => github.com/openconfig/gnoi v0.0.0-20201210212451-209899112bb7
